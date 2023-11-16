@@ -17,4 +17,12 @@ public class MMKTest {
         assertThat(ironRod.spiel()).isEqualTo("tatang");
         assertThat(wg.tap()).isEqualTo("diding");
     }
+
+    @Test
+    void adapterInstrumentsTest(){
+        MusicalInstrument wg = new WaterGlassMusicalInstrument();
+        MusicalInstrument ironRod = new GermanPercussionMusicalInstrument();
+        assertThat(wg.play()).isEqualTo("diding");
+        assertThat(ironRod.play()).isEqualTo("tatang");
+    }
 }
