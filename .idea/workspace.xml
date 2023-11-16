@@ -69,7 +69,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MMKTest.adapterInstrumentsTest">
+  <component name="RunManager" selected="Gradle.MMKTest.suonoForteTest">
     <configuration name="MMKTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -168,8 +168,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MMKTest.adapterInstrumentsTest" />
         <item itemvalue="Gradle.MMKTest.suonoForteTest" />
+        <item itemvalue="Gradle.MMKTest.adapterInstrumentsTest" />
         <item itemvalue="Gradle.MMKTest.altriStrumentiTest" />
         <item itemvalue="Gradle.MMKTest" />
       </list>
@@ -288,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700127617010</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="VERDE: suonoForteTest ora funziona">
+      <option name="closed" value="true" />
+      <created>1700129112584</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1700129112584</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

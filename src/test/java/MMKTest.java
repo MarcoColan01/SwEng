@@ -43,8 +43,11 @@ public class MMKTest {
 
     @Test
     void suonoForteTest(){
-       MusicalInstrument trumpet = new Trumpet();
-       MusicalInstrument SUT = new HighVolumeMusicalInstrument(trumpet);
-       assertThat(SUT.play()).isEqualTo("PEPEPE");
+        MusicalInstrument strumento = mock(MusicalInstrument.class);
+        when(strumento.play()).thenReturn("Abcd");
+
+        MusicalInstrument SUT = new HighVolumeMusicalInstrument(strumento);
+        assertThat(SUT.play()).isEqualTo("ABCD");
+
     }
 }
