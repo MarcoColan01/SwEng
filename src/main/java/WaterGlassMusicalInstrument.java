@@ -5,4 +5,9 @@ public class WaterGlassMusicalInstrument extends WaterGlass implements MusicalIn
     public @NotNull String play() {
         return this.tap();
     }
+
+    @Override
+    public String playLouder() {
+        return null;
+    }
 }

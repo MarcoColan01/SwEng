@@ -40,4 +40,10 @@ public class MMKTest {
         orchestra.add(new Trumpet());
         assertThat(orchestra.play()).isEqualTo("tatang\ndiding\npepepe");
     }
+
+    @Test
+    void suonoForteTest(){
+        MusicalInstrument wg = new WaterGlassMusicalInstrument();
+        assertThat(wg.playLouder()).isEqualTo("DIDING");
+    }
 }

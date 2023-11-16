@@ -5,4 +5,9 @@ public class Horn implements MusicalInstrument {
     public @NotNull String play() {
         return "papapa";
     }
+
+    @Override
+    public String playLouder() {
+        return null;
+    }
 }
