@@ -3,6 +3,6 @@ import org.jetbrains.annotations.NotNull;
 public class WaterGlassMusicalInstrument extends WaterGlass implements MusicalInstrument{
     @Override
     public @NotNull String play() {
-        return null;
+        return this.tap();
     }
 }
