@@ -1,5 +1,10 @@
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.*;
+import static org.mockito.Mockito.mock;
+
+import org.mockito.*;
+
+
 public class MMKTest {
 
     @Test
@@ -16,5 +21,14 @@ public class MMKTest {
         WaterGlass wg = new WaterGlass();
         assertThat(ironRod.spiel()).isEqualTo("tatang");
         assertThat(wg.tap()).isEqualTo("diding");
+    }
+
+    @Test
+    void adapterInstrumentsTest(){
+        MusicalInstrument wg = new WaterGlassMusicalInstrument();
+        GermanPercussion dummy = new IronRod();
+        MusicalInstrument ironRod = new GermanPercussionMusicalInstrument(dummy);
+        assertThat(wg.play()).isEqualTo("diding");
+        assertThat(ironRod.play()).isEqualTo("tatang");
     }
 }
