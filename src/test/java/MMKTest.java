@@ -31,4 +31,13 @@ public class MMKTest {
         assertThat(wg.play()).isEqualTo("diding");
         assertThat(ironRod.play()).isEqualTo("tatang");
     }
+
+    @Test
+    void orchestraTest(){
+        Orchestra orchestra = new Orchestra();
+        orchestra.add(new GermanPercussionMusicalInstrument(new IronRod()));
+        orchestra.add(new WaterGlassMusicalInstrument());
+        orchestra.add(new Trumpet());
+        assertThat(orchestra.play()).isEqualTo("tatang\ndiding\npepepe");
+    }
 }
