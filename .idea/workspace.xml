@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb06b2e6-e2ad-4af1-9f8c-26f54a239354" name="Changes" comment="" />
+    <list default="true" id="bb06b2e6-e2ad-4af1-9f8c-26f54a239354" name="Changes" comment="VERDE: suonoLentoTest ora funziona">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,13 +17,43 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2YDeyGJ3fDa9W3ZU7PnY9ypJuiw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -32,9 +64,122 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "onboarding.tips.debug.path": "C:/Users/cola0/MusicaMaestroKata/src/main/java/org/example/Main.java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.MMKTest">
+    <configuration name="MMKTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;MMKTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MMKTest.adapterInstrumentsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;MMKTest.adapterInstrumentsTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MMKTest.altriStrumentiTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;MMKTest.altriStrumentiTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MMKTest.suonoForteTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;MMKTest.suonoForteTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.MMKTest" />
+        <item itemvalue="Gradle.MMKTest.suonoForteTest" />
+        <item itemvalue="Gradle.MMKTest.adapterInstrumentsTest" />
+        <item itemvalue="Gradle.MMKTest.altriStrumentiTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,17 +189,171 @@
       <option name="presentableId" value="Default" />
       <updated>1700064830405</updated>
     </task>
+    <task id="LOCAL-00001" summary="INIZIALIZZAZIONE">
+      <option name="closed" value="true" />
+      <created>1700122715864</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700122715864</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ROSSO: strumentiBaseTest fallisce">
+      <option name="closed" value="true" />
+      <created>1700123031199</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700123031199</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ROSSO: strumentiBaseTest fallisce">
+      <option name="closed" value="true" />
+      <created>1700123096199</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700123096199</updated>
+    </task>
+    <task id="LOCAL-00004" summary="VERDE: strumentiBaseTest ora funziona">
+      <option name="closed" value="true" />
+      <created>1700123107511</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700123107511</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ROSSO: altriStrumentiTest fallisce">
+      <option name="closed" value="true" />
+      <created>1700123579761</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700123579761</updated>
+    </task>
+    <task id="LOCAL-00006" summary="VERDE: altriStrumentiTest ora funziona">
+      <option name="closed" value="true" />
+      <created>1700123616292</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700123616292</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ROSSO: adapterInstrumentsTest fallisce">
+      <option name="closed" value="true" />
+      <created>1700124029786</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700124029786</updated>
+    </task>
+    <task id="LOCAL-00008" summary="VERDE: adapterInstrumentsTest ora funziona">
+      <option name="closed" value="true" />
+      <created>1700124814246</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1700124814246</updated>
+    </task>
+    <task id="LOCAL-00009" summary="VERDE: adapterInstrumentsTest ora funziona">
+      <option name="closed" value="true" />
+      <created>1700124909009</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1700124909009</updated>
+    </task>
+    <task id="LOCAL-00010" summary="ROSSO: orchestraTest fallisce">
+      <option name="closed" value="true" />
+      <created>1700125340523</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1700125340523</updated>
+    </task>
+    <task id="LOCAL-00011" summary="VERDE: orchestraTest ora funziona">
+      <option name="closed" value="true" />
+      <created>1700125581506</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1700125581506</updated>
+    </task>
+    <task id="LOCAL-00012" summary="ROSSO: suonoForteTest fallisce">
+      <option name="closed" value="true" />
+      <created>1700125866122</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1700125866122</updated>
+    </task>
+    <task id="LOCAL-00013" summary="VERDE: suonoForteTest ora funziona">
+      <option name="closed" value="true" />
+      <created>1700127617010</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1700127617010</updated>
+    </task>
+    <task id="LOCAL-00014" summary="VERDE: suonoForteTest ora funziona">
+      <option name="closed" value="true" />
+      <created>1700129112584</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1700129112584</updated>
+    </task>
+    <task id="LOCAL-00015" summary="REFACTORING: aggiunto test con mocking">
+      <option name="closed" value="true" />
+      <created>1700129488136</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1700129488136</updated>
+    </task>
+    <task id="LOCAL-00016" summary="ROSSO: suonoLentoTest fallisce">
+      <option name="closed" value="true" />
+      <created>1700130256260</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1700130256260</updated>
+    </task>
+    <task id="LOCAL-00017" summary="VERDE: suonoLentoTest ora funziona">
+      <option name="closed" value="true" />
+      <created>1700131370941</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1700131370941</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="INIZIALIZZAZIONE" />
+    <MESSAGE value="ROSSO: strumentiBaseTest fallisce" />
+    <MESSAGE value="VERDE: strumentiBaseTest ora funziona" />
+    <MESSAGE value="ROSSO: altriStrumentiTest fallisce" />
+    <MESSAGE value="VERDE: altriStrumentiTest ora funziona" />
+    <MESSAGE value="ROSSO: adapterInstrumentsTest fallisce" />
+    <MESSAGE value="VERDE: adapterInstrumentsTest ora funziona" />
+    <MESSAGE value="ROSSO: orchestraTest fallisce" />
+    <MESSAGE value="VERDE: orchestraTest ora funziona" />
+    <MESSAGE value="ROSSO: suonoForteTest fallisce" />
+    <MESSAGE value="VERDE: suonoForteTest ora funziona" />
+    <MESSAGE value="REFACTORING: aggiunto test con mocking" />
+    <MESSAGE value="ROSSO: suonoLentoTest fallisce" />
+    <MESSAGE value="VERDE: suonoLentoTest ora funziona" />
+    <option name="LAST_COMMIT_MESSAGE" value="VERDE: suonoLentoTest ora funziona" />
   </component>
 </project>
