@@ -50,4 +50,13 @@ public class MMKTest {
         assertThat(SUT.play()).isEqualTo("ABCD");
 
     }
+
+    @Test
+    void suonoLentoTest(){
+        MusicalInstrument strumento = mock(MusicalInstrument.class);
+        when(strumento.play()).thenReturn("Abcdei");
+
+        MusicalInstrument SUT = new SlowTempoMusicalInstrument(strumento);
+        assertThat(SUT.play()).isEqualTo("AAbcdeeii");
+    }
 }
