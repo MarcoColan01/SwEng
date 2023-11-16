@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.*;
-import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.*;
 
 import org.mockito.*;
 
@@ -43,7 +43,8 @@ public class MMKTest {
 
     @Test
     void suonoForteTest(){
-        MusicalInstrument wg = new WaterGlassMusicalInstrument();
-        assertThat(wg.playLouder()).isEqualTo("DIDING");
+       MusicalInstrument trumpet = new Trumpet();
+       MusicalInstrument SUT = new HighVolumeMusicalInstrument(trumpet);
+       assertThat(SUT.play()).isEqualTo("PEPEPE");
     }
 }

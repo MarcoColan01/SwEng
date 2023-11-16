@@ -5,9 +5,4 @@ public class Trumpet implements MusicalInstrument {
     public @NotNull String play() {
         return "pepepe";
     }
-
-    @Override
-    public String playLouder() {
-        return null;
-    }
 }

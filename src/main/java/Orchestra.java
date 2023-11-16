@@ -15,11 +15,6 @@ public class Orchestra implements MusicalInstrument{
         return sb.deleteCharAt(sb.length()-1).toString();
     }
 
-    @Override
-    public String playLouder() {
-        return null;
-    }
-
     public void add(MusicalInstrument strumento) {
         strumenti.add(strumento);
     }

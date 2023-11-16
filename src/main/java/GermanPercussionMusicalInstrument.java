@@ -10,9 +10,4 @@ public class GermanPercussionMusicalInstrument implements MusicalInstrument {
     public @NotNull String play() {
         return germanPercussion.spiel();
     }
-
-    @Override
-    public String playLouder() {
-        return null;
-    }
 }
