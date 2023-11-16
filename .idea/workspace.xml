@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb06b2e6-e2ad-4af1-9f8c-26f54a239354" name="Changes" comment="VERDE: strumentiBaseTest ora funziona">
-      <change afterPath="$PROJECT_DIR$/src/main/java/GermanPercussion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IronRod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WaterGlass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MMKTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MMKTest.java" afterDir="false" />
+    <list default="true" id="bb06b2e6-e2ad-4af1-9f8c-26f54a239354" name="Changes" comment="ROSSO: altriStrumentiTest fallisce">
+      <change beforePath="$PROJECT_DIR$/src/main/java/IronRod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IronRod.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700123107511</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ROSSO: altriStrumentiTest fallisce">
+      <option name="closed" value="true" />
+      <created>1700123579761</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700123579761</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +160,7 @@
     <MESSAGE value="INIZIALIZZAZIONE" />
     <MESSAGE value="ROSSO: strumentiBaseTest fallisce" />
     <MESSAGE value="VERDE: strumentiBaseTest ora funziona" />
-    <option name="LAST_COMMIT_MESSAGE" value="VERDE: strumentiBaseTest ora funziona" />
+    <MESSAGE value="ROSSO: altriStrumentiTest fallisce" />
+    <option name="LAST_COMMIT_MESSAGE" value="ROSSO: altriStrumentiTest fallisce" />
   </component>
 </project>
