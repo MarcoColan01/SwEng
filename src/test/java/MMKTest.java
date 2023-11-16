@@ -9,4 +9,12 @@ public class MMKTest {
         assertThat(trumpet.play()).isEqualTo("pepepe");
         assertThat(horn.play()).isEqualTo("papapa");
     }
+
+    @Test
+    void altriStrumentiTest(){
+        GermanPercussion ironRod = new IronRod();
+        WaterGlass wg = new WaterGlass();
+        assertThat(ironRod.spiel()).isEqualTo("tatang");
+        assertThat(wg.tap()).isEqualTo("diding");
+    }
 }
