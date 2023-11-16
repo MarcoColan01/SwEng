@@ -1,12 +1,12 @@
 import org.jetbrains.annotations.NotNull;
 
-public class HighVolumeMusicalInstrument implements MusicalInstrument{
-    private final MusicalInstrument strumento;
+public class HighVolumeMusicalInstrument extends DecoratorMusicalInstruments implements MusicalInstrument{
     public HighVolumeMusicalInstrument(MusicalInstrument strumento){
-        this.strumento = strumento;
+        super(strumento);
     }
+
     @Override
-    public @NotNull String play(){
-        return strumento.play().toUpperCase();
+    String specificDecoration(String ret) {
+        return ret.toUpperCase();
     }
 }

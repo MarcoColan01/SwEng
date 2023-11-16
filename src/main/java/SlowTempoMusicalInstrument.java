@@ -1,19 +1,17 @@
 import org.jetbrains.annotations.NotNull;
 
-public class SlowTempoMusicalInstrument implements MusicalInstrument {
-    private final MusicalInstrument strumento;
+public class SlowTempoMusicalInstrument extends DecoratorMusicalInstruments implements MusicalInstrument {
     public SlowTempoMusicalInstrument(MusicalInstrument strumento) {
-        this.strumento = strumento;
+        super(strumento);
     }
 
     @Override
-    public @NotNull String play() {
-        String suono = strumento.play();
+    String specificDecoration(String ret) {
         StringBuilder sb = new StringBuilder();
-        for(int i = 0; i < suono.length(); i++){
-            sb.append(suono.charAt(i));
-            if(isVocal(suono.charAt(i))){
-                sb.append(suono.charAt(i));
+        for(int i = 0; i < ret.length(); i++){
+            sb.append(ret.charAt(i));
+            if(isVocal(ret.charAt(i))){
+                sb.append(ret.charAt(i));
             }
         }
         return sb.toString();
