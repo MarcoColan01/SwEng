@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb06b2e6-e2ad-4af1-9f8c-26f54a239354" name="Changes" comment="VERDE: suonoForteTest ora funziona">
+    <list default="true" id="bb06b2e6-e2ad-4af1-9f8c-26f54a239354" name="Changes" comment="VERDE: suonoLentoTest ora funziona">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DecoratorMusicalInstruments.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MMKTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MMKTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HighVolumeMusicalInstrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HighVolumeMusicalInstrument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SlowTempoMusicalInstrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SlowTempoMusicalInstrument.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,21 +56,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/SuonoForte&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/cola0/MusicaMaestroKata/src/main/java/org/example/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature/SuonoLento",
+    "ignore.virus.scanning.warn.message": "true",
+    "onboarding.tips.debug.path": "C:/Users/cola0/MusicaMaestroKata/src/main/java/org/example/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MMKTest.suonoForteTest">
+  <component name="RunManager" selected="Gradle.MMKTest">
     <configuration name="MMKTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -168,10 +169,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MMKTest" />
         <item itemvalue="Gradle.MMKTest.suonoForteTest" />
         <item itemvalue="Gradle.MMKTest.adapterInstrumentsTest" />
         <item itemvalue="Gradle.MMKTest.altriStrumentiTest" />
-        <item itemvalue="Gradle.MMKTest" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +297,31 @@
       <option name="project" value="LOCAL" />
       <updated>1700129112584</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="REFACTORING: aggiunto test con mocking">
+      <option name="closed" value="true" />
+      <created>1700129488136</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1700129488136</updated>
+    </task>
+    <task id="LOCAL-00016" summary="ROSSO: suonoLentoTest fallisce">
+      <option name="closed" value="true" />
+      <created>1700130256260</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1700130256260</updated>
+    </task>
+    <task id="LOCAL-00017" summary="VERDE: suonoLentoTest ora funziona">
+      <option name="closed" value="true" />
+      <created>1700131370941</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1700131370941</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -322,6 +347,9 @@
     <MESSAGE value="VERDE: orchestraTest ora funziona" />
     <MESSAGE value="ROSSO: suonoForteTest fallisce" />
     <MESSAGE value="VERDE: suonoForteTest ora funziona" />
-    <option name="LAST_COMMIT_MESSAGE" value="VERDE: suonoForteTest ora funziona" />
+    <MESSAGE value="REFACTORING: aggiunto test con mocking" />
+    <MESSAGE value="ROSSO: suonoLentoTest fallisce" />
+    <MESSAGE value="VERDE: suonoLentoTest ora funziona" />
+    <option name="LAST_COMMIT_MESSAGE" value="VERDE: suonoLentoTest ora funziona" />
   </component>
 </project>
