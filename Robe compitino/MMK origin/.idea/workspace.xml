@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4aaf8215-af35-4dca-924d-f77ffa52d981" name="Changes" comment="REFACTORING">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2YZJTVlzvlGxPFZtaUThFLSGjh3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature/Observer",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="it.di.unimi.sweng.kmm" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="KMMTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;it.di.unimi.sweng.kmm.KMMTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.KMMTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4aaf8215-af35-4dca-924d-f77ffa52d981" name="Changes" comment="" />
+      <created>1700727177359</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700727177359</updated>
+    </task>
+    <task id="LOCAL-00001" summary="ROSSO: simpleInstrumentsTest fallisce">
+      <option name="closed" value="true" />
+      <created>1700728140614</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700728140614</updated>
+    </task>
+    <task id="LOCAL-00002" summary="VERDE: simpleInstrumentsTest ora funziona">
+      <option name="closed" value="true" />
+      <created>1700728182045</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700728182045</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ROSSO: otherInstrumentsTest fallisce">
+      <option name="closed" value="true" />
+      <created>1700728533226</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700728533226</updated>
+    </task>
+    <task id="LOCAL-00004" summary="VERDE: otherInstrumentsTest ora funziona">
+      <option name="closed" value="true" />
+      <created>1700728568631</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700728568631</updated>
+    </task>
+    <task id="LOCAL-00005" summary="REFACTORING">
+      <option name="closed" value="true" />
+      <created>1700728734718</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700728734718</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ROSSO: waterglassAsInstrumentTest fallisce">
+      <option name="closed" value="true" />
+      <created>1700729036533</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700729036533</updated>
+    </task>
+    <task id="LOCAL-00007" summary="VERDE: waterglassAsInstrumentTest ora funziona">
+      <option name="closed" value="true" />
+      <created>1700729057939</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700729057939</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ROSSO: germanPercussionAsInstrumentTest fallisce">
+      <option name="closed" value="true" />
+      <created>1700729221694</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1700729221694</updated>
+    </task>
+    <task id="LOCAL-00009" summary="ROSSO: germanPercussionAsInstrumentTest fallisce">
+      <option name="closed" value="true" />
+      <created>1700729344218</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1700729344218</updated>
+    </task>
+    <task id="LOCAL-00010" summary="VERDE: germanPercussionAsInstrumentTest ora funziona">
+      <option name="closed" value="true" />
+      <created>1700729356766</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1700729356766</updated>
+    </task>
+    <task id="LOCAL-00011" summary="VERDE: germanPercussionAsInstrumentTest ora funziona">
+      <option name="closed" value="true" />
+      <created>1700729426690</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1700729426690</updated>
+    </task>
+    <task id="LOCAL-00012" summary="ROSSO: orchestraTest fallisce">
+      <option name="closed" value="true" />
+      <created>1700729669719</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1700729669719</updated>
+    </task>
+    <task id="LOCAL-00013" summary="VERDE: orchestraTest ora funziona">
+      <option name="closed" value="true" />
+      <created>1700729897550</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1700729897550</updated>
+    </task>
+    <task id="LOCAL-00014" summary="VERDE: orchestraVuotaTest fallisce">
+      <option name="closed" value="true" />
+      <created>1700730066646</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1700730066646</updated>
+    </task>
+    <task id="LOCAL-00015" summary="ROSSO: orchestraVuotaTest fallisce">
+      <option name="closed" value="true" />
+      <created>1700730103381</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1700730103381</updated>
+    </task>
+    <task id="LOCAL-00016" summary="VERDE: orchestraVuotaTest ora funziona">
+      <option name="closed" value="true" />
+      <created>1700730122326</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1700730122326</updated>
+    </task>
+    <task id="LOCAL-00017" summary="ROSSO: ironRodSuonoForteTest fallisce">
+      <option name="closed" value="true" />
+      <created>1700730528635</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1700730528635</updated>
+    </task>
+    <task id="LOCAL-00018" summary="VERDE: ironRodSuonoForteTest ora funziona">
+      <option name="closed" value="true" />
+      <created>1700730645294</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1700730645294</updated>
+    </task>
+    <task id="LOCAL-00019" summary="VERDE: ironRodSuonoForteTest ora funziona">
+      <option name="closed" value="true" />
+      <created>1700730698616</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1700730698616</updated>
+    </task>
+    <task id="LOCAL-00020" summary="VERDE DIRETTO: orchestraSuonoForteTest funziona">
+      <option name="closed" value="true" />
+      <created>1700730900990</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1700730900990</updated>
+    </task>
+    <task id="LOCAL-00021" summary="ROSSO: strumentoSuonoLentoTest fallisce">
+      <option name="closed" value="true" />
+      <created>1700731020392</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1700731020392</updated>
+    </task>
+    <task id="LOCAL-00022" summary="VERDE: strumentoSuonoLentoTest ora funziona">
+      <option name="closed" value="true" />
+      <created>1700732150700</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1700732150700</updated>
+    </task>
+    <task id="LOCAL-00023" summary="REFACTORING: realizzato TEMPLATE PATTERN per fattorizzare le parti comuni a suono forte e lento.">
+      <option name="closed" value="true" />
+      <created>1700733926896</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1700733926896</updated>
+    </task>
+    <task id="LOCAL-00024" summary="ROSSO: abstractFactoryTest fallisce">
+      <option name="closed" value="true" />
+      <created>1700734361786</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1700734361786</updated>
+    </task>
+    <task id="LOCAL-00025" summary="ROSSO: abstractFactoryTest fallisce">
+      <option name="closed" value="true" />
+      <created>1700734479932</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1700734479932</updated>
+    </task>
+    <task id="LOCAL-00026" summary="VERDE: abstractFactoryTest ora funziona">
+      <option name="closed" value="true" />
+      <created>1700734494766</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1700734494766</updated>
+    </task>
+    <task id="LOCAL-00027" summary="REFACTORING">
+      <option name="closed" value="true" />
+      <created>1700734812859</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1700734812859</updated>
+    </task>
+    <task id="LOCAL-00028" summary="VERDE DIRETTO: highVolumeOrchestraTest funziona">
+      <option name="closed" value="true" />
+      <created>1700734872439</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1700734872439</updated>
+    </task>
+    <task id="LOCAL-00029" summary="REFACTORING">
+      <option name="closed" value="true" />
+      <created>1700734885605</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1700734885605</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ROSSO: simpleInstrumentsTest fallisce" />
+    <MESSAGE value="VERDE: simpleInstrumentsTest ora funziona" />
+    <MESSAGE value="ROSSO: otherInstrumentsTest fallisce" />
+    <MESSAGE value="VERDE: otherInstrumentsTest ora funziona" />
+    <MESSAGE value="ROSSO: waterglassAsInstrumentTest fallisce" />
+    <MESSAGE value="VERDE: waterglassAsInstrumentTest ora funziona" />
+    <MESSAGE value="ROSSO: germanPercussionAsInstrumentTest fallisce" />
+    <MESSAGE value="VERDE: germanPercussionAsInstrumentTest ora funziona" />
+    <MESSAGE value="ROSSO: orchestraTest fallisce" />
+    <MESSAGE value="VERDE: orchestraTest ora funziona" />
+    <MESSAGE value="VERDE: orchestraVuotaTest fallisce" />
+    <MESSAGE value="ROSSO: orchestraVuotaTest fallisce" />
+    <MESSAGE value="VERDE: orchestraVuotaTest ora funziona" />
+    <MESSAGE value="ROSSO: ironRodSuonoForteTest fallisce" />
+    <MESSAGE value="VERDE: ironRodSuonoForteTest ora funziona" />
+    <MESSAGE value="VERDE DIRETTO: orchestraSuonoForteTest funziona" />
+    <MESSAGE value="ROSSO: strumentoSuonoLentoTest fallisce" />
+    <MESSAGE value="VERDE: strumentoSuonoLentoTest ora funziona" />
+    <MESSAGE value="REFACTORING: realizzato TEMPLATE PATTERN per fattorizzare le parti comuni a suono forte e lento." />
+    <MESSAGE value="ROSSO: abstractFactoryTest fallisce" />
+    <MESSAGE value="VERDE: abstractFactoryTest ora funziona" />
+    <MESSAGE value="VERDE DIRETTO: highVolumeOrchestraTest funziona" />
+    <MESSAGE value="REFACTORING" />
+    <option name="LAST_COMMIT_MESSAGE" value="REFACTORING" />
+  </component>
+</project>
