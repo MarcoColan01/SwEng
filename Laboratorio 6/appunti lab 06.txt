@@ -1,0 +1,79 @@
+1. getPunti() 
+
+default int getPunti(){   		//dentro a GiocatoreBJ
+	boolean acePresent = false
+	int points = 0;
+
+	for(Card card: Iterable<Card> getCards()){
+		points += cardValue(card)
+		if(card.rank() == ACE) acePresent = true;
+	}
+	return (acePresent && points+10 < 22) ? points+10: points;
+}
+
+
+void checkPunti(){					//nella classe test
+//primo problema: come testo l'interfaccia?
+	GiocatoreBJ SUT = mock()
+	when(SUT.getPunti()).thenCallRealMethod();	
+	final Iterator<Card> it = List.of(carte...).iterator()
+	when(SUT.getCards()).thenReturn(it)
+	assertThat(SUT.getPunti()).isEqualTo(21)
+}
+
+2. mazziere.getPunti()
+//Mazziere non implementato
+void checkGetPuntiMazziere(){
+	Mazziere SUT = spy(new Mazziere())
+	final Iterator<Card> it = List.of(carte...).iterator()
+	when(SUT.getCards()).thenReturn(it)
+	assertThat(SUT.getPunti()).isEqualTo(21)	//funziona
+}
+cosa facciamo? getCards non è un vero mazziere: se dicessi che getCards fa qualcosa (sullo stato), il test fallirebbe perchè con la when sto invocando getCards su SUT. 
+
+alternativa:  doReturn(it).when(SUT).getCards() al posto di when(SUT.getCards()).thenReturn(it)
+per cui, se usiamo spy, è meglio usare il doReturn (o doAnswer a seconda dei casi) 
+
+@ParametrizedTest
+@CSVSource({"AC "KS, 21", "AC AS, 12", "2C 2C 2C 2C, 8})
+void checkPuntiMazziere(){
+	mazziere SUT = spy(new Mazziere());
+}
+
+3. gioca()
+public void gioca()){
+	while(getPunti < 21 && strategia.chioediCarta()){
+		mano.add(banco.draw())
+	}
+}
+
+class test
+@ExtendWith(MockitoExtention.class)
+
+//posso anche metterli come parametro della funzione
+@Mock Mazziere banco;
+@Mock Strategia strat;
+
+@InjectMocks Sfidante SUT;
+
+void checkGiocaTest(){		//non sto sballando e chiedendo le carte due volte ho avuto successo
+	when(strat.chiediCarta()).thenReturn(true, true, false);
+	when(banco.draw()).thenReturn(carte...)
+	
+	SUT.setStrategia(strat);
+	SUT.carteIniziali();
+	SUT.gioca()
+	assertThat(SUT.getCards()).toIterable().hasSize(4);
+	verify(banco, times(4)).draw()   //più semplice   (2 volte iniziali per carteIniziali + 2 volte chiediCarta)
+}
+	
+
+
+se devo iniettare dentro un campo privato di cui non ho setter e ne inizializzazione nel costruttore, non posso usare questo approccio senza prima creare l'oggetto e iniettare la parte che manca. 
+
+
+
+
+
+
+
